@@ -1,0 +1,41 @@
+{
+  "examples": 200092,
+  "cross_entropy": 5.313879110482225,
+  "vocabulary_perplexity": 203.1366916829823,
+  "top1_accuracy": 0.17935249785098856,
+  "top3_accuracy": 0.2861833556563981,
+  "top5_accuracy": 0.335425704176079,
+  "target_oov_rate": 0.07207684465146036,
+  "known_target_top1": 0.1932837830559595,
+  "known_target_top5": 0.3614800452415576,
+  "evaluation_seconds": 14.01888125000005,
+  "without_loops": {
+    "examples": 200057,
+    "cross_entropy": 5.313699836269319,
+    "vocabulary_perplexity": 203.10027777660326,
+    "top1_accuracy": 0.17937387844464328,
+    "top3_accuracy": 0.2862184277480918,
+    "top5_accuracy": 0.33545939407268927,
+    "target_oov_rate": 0.07208945450546589,
+    "known_target_top1": 0.19330945134268862,
+    "known_target_top5": 0.361521264847685,
+    "evaluation_seconds": 12.028887208000015
+  },
+  "architecture": "gru",
+  "best_epoch": 5,
+  "completed_epochs": 5,
+  "parameter_count": 3934496,
+  "checkpoint": "/Users/nandan/Downloads/trail-main/outputs/telugu_families/gru_best.pt",
+  "validation": {
+    "examples": 198928,
+    "cross_entropy": 5.358062931301031,
+    "vocabulary_perplexity": 212.3132824537316,
+    "top1_accuracy": 0.1779488055980053,
+    "top3_accuracy": 0.2844848387356229,
+    "top5_accuracy": 0.33359808573956407,
+    "target_oov_rate": 0.07056321885305239,
+    "known_target_top1": 0.19145875137243024,
+    "known_target_top5": 0.3589249882363122,
+    "evaluation_seconds": 17.553455167000266
+  }
+}

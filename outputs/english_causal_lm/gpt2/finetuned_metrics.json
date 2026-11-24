@@ -1,0 +1,12 @@
+{
+  "model": "gpt2",
+  "fine_tuned": true,
+  "examples": 500,
+  "top1_accuracy": 0.316,
+  "top3_accuracy": 0.45,
+  "top5_accuracy": 0.506,
+  "target_oov_rate": 0.01,
+  "word_starts": 30,
+  "seconds": 43.95503091812134,
+  "note": "Sample only; words ranked by greedy completion; OOV targets are misses."
+}

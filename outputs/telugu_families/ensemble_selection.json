@@ -1,0 +1,53 @@
+{
+  "family_choices": {
+    "recurrent": "bilstm_v3",
+    "cnn": "cnn_v2",
+    "transformer": "transformer"
+  },
+  "family_validation_top1": {
+    "recurrent": {
+      "lstm": 0.1785419850398134,
+      "bilstm": 0.18596175500683665,
+      "bilstm_v2": 0.19072227137456768,
+      "bilstm_v3": 0.19149139387114936,
+      "gru": 0.1779488055980053
+    },
+    "cnn": {
+      "cnn": 0.17553587227539613,
+      "cnn_v2": 0.1856500844526663,
+      "wordchar_cnn": 0.18357395640633797
+    },
+    "transformer": {
+      "transformer": 0.19371833025014076
+    }
+  },
+  "weights": {
+    "bilstm_v3": 0.2,
+    "cnn_v2": 0.2,
+    "transformer": 0.3,
+    "counts": 0.3
+  },
+  "hybrid_alpha": 0.5,
+  "hybrid_neural": "bilstm_v3",
+  "selection": "validation_top1",
+  "candidates": 287,
+  "screened_on": 60000,
+  "validation": {
+    "examples": 198928,
+    "top1_accuracy": 0.21346416794015927,
+    "top3_accuracy": 0.33320095713021797,
+    "top5_accuracy": 0.3868284002252071,
+    "cross_entropy": 4.821306714487701,
+    "vocabulary_perplexity": 124.12718364139585,
+    "target_oov_rate": 0.07056321885305239
+  },
+  "hybrid_validation": {
+    "examples": 198928,
+    "top1_accuracy": 0.20426485964771174,
+    "top3_accuracy": 0.31832120164079464,
+    "top5_accuracy": 0.3711091450172927,
+    "cross_entropy": 5.146815407758437,
+    "vocabulary_perplexity": 171.8832397711532,
+    "target_oov_rate": 0.07056321885305239
+  }
+}

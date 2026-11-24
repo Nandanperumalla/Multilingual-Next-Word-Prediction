@@ -1,0 +1,19 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 6.2266802697753905,
+    "validation": {
+      "examples": 285746,
+      "cross_entropy": 5.691117367576203,
+      "vocabulary_perplexity": 296.22442736012607,
+      "top1_accuracy": 0.18071294086356415,
+      "top3_accuracy": 0.2855543034723146,
+      "top5_accuracy": 0.333205014243419,
+      "target_oov_rate": 0.015310800501144417,
+      "known_target_top1": 0.1835228221813904,
+      "known_target_top5": 0.3383859743896848,
+      "evaluation_seconds": 13.935676125
+    },
+    "training_seconds": 79.63350562500001
+  }
+]

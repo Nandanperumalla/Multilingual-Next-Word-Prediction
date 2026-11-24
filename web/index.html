@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Telugu Next-Word Prediction</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@400;500;600&family=Noto+Serif+Telugu:wght@500;600&family=Noto+Sans+Devanagari:wght@400;500;600&family=Noto+Serif+Devanagari:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="brand"><span id="glyph" class="glyph" aria-hidden="true">అ</span><div><h1 id="brand-title">Telugu Next-Word Prediction</h1><p id="brand-sub">తెలుగులో తదుపరి పదాన్ని సూచించే వ్యవస్థ</p></div></div>
+  <div class="language-switch" role="group" aria-label="Language">
+    <button data-language="telugu" aria-pressed="true">Telugu</button>
+    <button data-language="hindi" aria-pressed="false">Hindi</button>
+    <button data-language="english" aria-pressed="false">English</button>
+  </div>
+  <nav role="tablist" aria-label="Sections">
+    <button role="tab" data-tab="write" aria-selected="true">Write</button>
+    <button role="tab" data-tab="compare" aria-selected="false">Compare</button>
+    <button role="tab" data-tab="generate" aria-selected="false">Generate</button>
+    <button role="tab" data-tab="results" aria-selected="false">Results</button>
+  </nav>
+</header>
+<main>
+  <section id="write" class="panel" role="tabpanel">
+    <div class="sheet">
+      <label id="text-label" class="eyebrow" for="text">మీ తెలుగు వాక్యం</label>
+      <textarea id="text" rows="3" maxlength="2000" lang="te" autocomplete="off" spellcheck="false" placeholder="ఇక్కడ తెలుగులో టైప్ చేయండి…"></textarea>
+      <div class="suggest-head"><span id="next-label" class="eyebrow">తదుపరి పదాలు</span><span class="hint"><kbd>Tab</kbd> adds the top word</span></div>
+      <div id="suggestions" class="suggestions" aria-live="polite"></div>
+      <p id="status" class="status"></p>
+    </div>
+    <aside class="controls">
+      <p class="eyebrow">Model</p>
+      <div id="models" class="model-list"></div>
+      <p class="eyebrow">Try a phrase</p>
+      <div id="samples" class="samples" lang="te"></div>
+    </aside>
+  </section>
+
+  <section id="compare" class="panel single" role="tabpanel" hidden>
+    <div class="sheet">
+      <label class="eyebrow" for="compare-text">Phrase to compare</label>
+      <input id="compare-text" lang="te" maxlength="2000" autocomplete="off">
+      <div id="compare-grid" class="compare-grid" lang="te"></div>
+    </div>
+  </section>
+
+  <section id="generate" class="panel single" role="tabpanel" hidden>
+    <div class="sheet">
+      <label class="eyebrow" for="gen-text">Starting phrase</label>
+      <input id="gen-text" lang="te" maxlength="2000" autocomplete="off">
+      <div class="gen-controls">
+        <label>Words to add <output id="gen-count">12</output><input id="gen-words" type="range" min="3" max="30" value="12"></label>
+        <label class="check"><input id="gen-creative" type="checkbox" checked> Creative mode</label>
+        <button id="gen-run" class="primary">Generate</button>
+      </div>
+      <p id="gen-out" class="gen-out" lang="te"></p>
+      <p class="fine">A small model picks one word at a time, so sentences may not always make sense.</p>
+    </div>
+  </section>
+
+  <section id="results" class="panel single" role="tabpanel" hidden>
+    <div id="stats" class="stats telugu-only"></div>
+    <div class="sheet telugu-only">
+      <h2>All models</h2>
+      <p class="fine">Every row is scored on the same 200,092 unseen test examples.</p>
+      <div id="chart" class="chart"></div>
+    </div>
+    <div class="sheet telugu-only">
+      <h2>Against a published keyboard</h2>
+      <p class="fine">Google Gboard reports the same measure, in English with different data, so treat this as a guide.</p>
+      <div class="scroll"><table id="benchmark"></table></div>
+    </div>
+    <div class="sheet telugu-only">
+      <h2>Pretrained AI model test</h2>
+      <p class="fine">All four rows use the same 500 test examples, which are slightly easier than the full set.</p>
+      <div class="scroll"><table id="pretrained"></table></div>
+    </div>
+    <div class="sheet telugu-only">
+      <h2>Published papers</h2>
+      <p class="fine">No Telugu paper was found. These numbers use different languages, data and test methods, so they cannot be ranked against yours.</p>
+      <div class="scroll"><table id="papers"></table></div>
+    </div>
+    <div id="telugu-sheet" class="sheet telugu-only" hidden>
+      <h2>Telugu: all model families</h2>
+      <p id="telugu-note" class="fine"></p>
+      <div class="scroll"><table id="telugu"></table></div>
+    </div>
+    <div id="hindi-sheet" class="sheet" hidden>
+      <h2>Hindi: all model families</h2>
+      <p id="hindi-note" class="fine"></p>
+      <div class="scroll"><table id="hindi"></table></div>
+    </div>
+    <div id="hindi-sample-sheet" class="sheet" hidden>
+      <h2>Hindi: pretrained AI model test</h2>
+      <p class="fine">Every row here uses the same 500 test examples only, so do not compare them with the full table above.</p>
+      <div class="scroll"><table id="hindi-sample"></table></div>
+    </div>
+    <div id="english-sheet" class="sheet" hidden>
+      <h2>English: all model families</h2>
+      <p id="english-note" class="fine"></p>
+      <div class="scroll"><table id="english"></table></div>
+    </div>
+    <div id="english-sample-sheet" class="sheet" hidden>
+      <h2>English: pretrained AI model test</h2>
+      <p class="fine">Every row here uses the same 500 test examples only, so do not compare them with the full table above.</p>
+      <div class="scroll"><table id="english-sample"></table></div>
+    </div>
+  </section>
+</main>
+<footer>Research prototype. Suggestions are model estimates, not guaranteed to be correct.</footer>
+<script src="app.js"></script>
+</body>
+</html>

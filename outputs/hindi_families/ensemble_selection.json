@@ -1,0 +1,50 @@
+{
+  "family_choices": {
+    "recurrent": "bilstm",
+    "cnn": "wordchar_cnn",
+    "transformer": "transformer"
+  },
+  "family_validation_top1": {
+    "recurrent": {
+      "lstm": 0.2966598030926992,
+      "bilstm": 0.3115130771538441,
+      "gru": 0.29815638039654185
+    },
+    "cnn": {
+      "cnn": 0.3058949464095781,
+      "wordchar_cnn": 0.30864264870319363
+    },
+    "transformer": {
+      "transformer": 0.3265333951509532
+    }
+  },
+  "weights": {
+    "bilstm": 0.3,
+    "wordchar_cnn": 0.0,
+    "transformer": 0.4,
+    "counts": 0.3
+  },
+  "hybrid_alpha": 0.5,
+  "hybrid_neural": "bilstm",
+  "selection": "validation_top1",
+  "candidates": 287,
+  "screened_on": 60000,
+  "validation": {
+    "examples": 293336,
+    "top1_accuracy": 0.34754002236343307,
+    "top3_accuracy": 0.513002154525868,
+    "top5_accuracy": 0.5847594567322115,
+    "cross_entropy": 3.589232220643087,
+    "vocabulary_perplexity": 36.206266827955275,
+    "target_oov_rate": 0.00902378160198547
+  },
+  "hybrid_validation": {
+    "examples": 293336,
+    "top1_accuracy": 0.336511713529877,
+    "top3_accuracy": 0.49580685630130633,
+    "top5_accuracy": 0.5664937136935119,
+    "cross_entropy": 3.801094090652143,
+    "vocabulary_perplexity": 44.75011840558137,
+    "target_oov_rate": 0.00902378160198547
+  }
+}

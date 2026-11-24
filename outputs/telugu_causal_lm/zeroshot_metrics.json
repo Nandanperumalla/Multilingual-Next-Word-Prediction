@@ -1,0 +1,10 @@
+{
+  "model": "bigscience/bloom-560m",
+  "fine_tuned": false,
+  "examples": 500,
+  "top1_accuracy": 0.056,
+  "top5_accuracy": 0.136,
+  "word_starts": 30,
+  "seconds": 3067.9532918930054,
+  "note": "Words ranked by greedy completion of the top word-start tokens; OOV targets count as misses."
+}

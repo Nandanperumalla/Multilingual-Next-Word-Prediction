@@ -1,0 +1,18 @@
+{
+  "examples": 200092,
+  "cross_entropy": 5.310342916086725,
+  "vocabulary_perplexity": 202.41962943530203,
+  "top1_accuracy": 0.17879275533254702,
+  "top3_accuracy": 0.2847889970613518,
+  "top5_accuracy": 0.33470603522379705,
+  "target_oov_rate": 0.07207684465146036,
+  "known_target_top1": 0.1926805622879302,
+  "known_target_top5": 0.3607044756826628,
+  "evaluation_seconds": 6.780584042000001,
+  "architecture": "lstm",
+  "best_epoch": 5,
+  "completed_epochs": 5,
+  "parameter_count": 3959328,
+  "checkpoint": "outputs/telugu_seeds/seed_2/lstm_best.pt",
+  "training_examples_per_epoch": 3483073
+}

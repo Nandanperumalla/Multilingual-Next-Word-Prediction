@@ -1,0 +1,12 @@
+{
+  "hybrid_v2": {
+    "examples": 500,
+    "top1_accuracy": 0.226,
+    "top5_accuracy": 0.384
+  },
+  "bilstm_v2": {
+    "examples": 500,
+    "top1_accuracy": 0.214,
+    "top5_accuracy": 0.374
+  }
+}

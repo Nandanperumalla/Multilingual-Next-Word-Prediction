@@ -1,0 +1,17 @@
+{
+  "examples": 296193,
+  "cross_entropy": 4.118896192483231,
+  "vocabulary_perplexity": 61.49133019791045,
+  "top1_accuracy": 0.29209670721455266,
+  "top3_accuracy": 0.44435553844959197,
+  "top5_accuracy": 0.5142288980495825,
+  "target_oov_rate": 0.010358111096480993,
+  "known_target_top1": 0.2951539445628998,
+  "known_target_top5": 0.5196110874200427,
+  "evaluation_seconds": 11.316536124999857,
+  "architecture": "lstm",
+  "best_epoch": 3,
+  "completed_epochs": 3,
+  "parameter_count": 3959328,
+  "checkpoint": "outputs/hindi_comparison/lstm_best.pt"
+}

@@ -1,0 +1,190 @@
+{
+  "models": [
+    {
+      "name": "Combined model (ensemble)",
+      "top1": 21.15,
+      "top5": 38.24,
+      "perplexity": null,
+      "family": "Hybrid"
+    },
+    {
+      "name": "Hybrid v2",
+      "top1": 20.84,
+      "top5": 37.46,
+      "perplexity": null,
+      "family": "Hybrid"
+    },
+    {
+      "name": "Hybrid v1",
+      "top1": 20.62,
+      "top5": 37.63,
+      "perplexity": null,
+      "family": "Hybrid"
+    },
+    {
+      "name": "Fine-tuned Bi-LSTM v2",
+      "top1": 19.42,
+      "top5": 35.56,
+      "perplexity": 176.04,
+      "family": "Recurrent"
+    },
+    {
+      "name": "Regularized Bi-LSTM v3",
+      "top1": 19.35,
+      "top5": 35.72,
+      "perplexity": 169.48,
+      "family": "Recurrent"
+    },
+    {
+      "name": "Bi-LSTM",
+      "top1": 18.82,
+      "top5": 35.0,
+      "perplexity": 178.6,
+      "family": "Recurrent"
+    },
+    {
+      "name": "Fine-tuned word CNN",
+      "top1": 18.68,
+      "top5": 34.7,
+      "perplexity": 183.54,
+      "family": "CNN"
+    },
+    {
+      "name": "Gated word-character CNN",
+      "top1": 18.55,
+      "top5": 34.68,
+      "perplexity": 167.13,
+      "family": "CNN"
+    },
+    {
+      "name": "LSTM",
+      "top1": 18.03,
+      "top5": 33.57,
+      "perplexity": 199.02,
+      "family": "Recurrent"
+    },
+    {
+      "name": "Word CNN",
+      "top1": 17.67,
+      "top5": 33.53,
+      "perplexity": 193.76,
+      "family": "CNN"
+    }
+  ],
+  "pretrained": [
+    {
+      "name": "Hybrid v2",
+      "top1": 22.6,
+      "top5": 38.4
+    },
+    {
+      "name": "Fine-tuned Bi-LSTM v2",
+      "top1": 21.4,
+      "top5": 37.4
+    },
+    {
+      "name": "bloom-560m, fine-tuned",
+      "top1": 8.6,
+      "top5": 18.6
+    },
+    {
+      "name": "bloom-560m, no fine-tuning",
+      "top1": 5.6,
+      "top5": 13.6
+    }
+  ],
+  "benchmark": [
+    {
+      "name": "Your combined model",
+      "language": "Telugu",
+      "top1": 21.15,
+      "top3": 32.97,
+      "mine": true
+    },
+    {
+      "name": "Your Bi-LSTM v2",
+      "language": "Telugu",
+      "top1": 19.42,
+      "top3": 30.47,
+      "mine": true
+    },
+    {
+      "name": "Your Bi-LSTM",
+      "language": "Telugu",
+      "top1": 18.82,
+      "top3": 29.79,
+      "mine": true
+    },
+    {
+      "name": "Your LSTM",
+      "language": "Telugu",
+      "top1": 18.03,
+      "top3": 28.78,
+      "mine": true
+    },
+    {
+      "name": "Gboard LSTM",
+      "language": "English",
+      "top1": 16.5,
+      "top3": 27.1,
+      "mine": false
+    },
+    {
+      "name": "Gboard n-gram",
+      "language": "English",
+      "top1": 13.0,
+      "top3": 22.1,
+      "mine": false
+    }
+  ],
+  "papers": [
+    {
+      "name": "Bi-LSTM on n-grams",
+      "language": "Bangla",
+      "score": "99%",
+      "test": "No split stated",
+      "url": "https://arxiv.org/abs/2405.01873",
+      "source": "Islam et al., 2024"
+    },
+    {
+      "name": "LSTM",
+      "language": "Assamese",
+      "score": "88.20%",
+      "test": "Unknown, secondhand figure",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9387859/",
+      "source": "Barman & Boruah, 2018, as cited"
+    },
+    {
+      "name": "Bi-LSTM",
+      "language": "Hindi",
+      "score": "81.07%",
+      "test": "Described as validation",
+      "url": "https://www.researchgate.net/publication/338947141_Next_Word_Prediction_in_Hindi_Using_Deep_Learning_Techniques",
+      "source": "Sharma et al., 2019"
+    },
+    {
+      "name": "BLSTM-GRU",
+      "language": "Amharic",
+      "score": "78.6%",
+      "test": "Test set of Bible text",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9387859/",
+      "source": "Endalie et al., 2022"
+    },
+    {
+      "name": "GRU",
+      "language": "Dzongkha",
+      "score": "74.03%",
+      "test": "Validation split",
+      "url": "https://arxiv.org/pdf/2607.11515",
+      "source": "Chhetri et al."
+    },
+    {
+      "name": "CIFG (LSTM variant)",
+      "language": "English",
+      "score": "16.5%",
+      "test": "Separate test logs",
+      "url": "https://arxiv.org/abs/1811.03604",
+      "source": "Hard et al., 2018 (Gboard)"
+    }
+  ]
+}

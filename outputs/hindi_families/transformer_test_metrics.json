@@ -1,0 +1,41 @@
+{
+  "examples": 296193,
+  "cross_entropy": 3.7330695432715313,
+  "vocabulary_perplexity": 41.8072405433928,
+  "top1_accuracy": 0.32401170858190437,
+  "top3_accuracy": 0.48659826532024725,
+  "top5_accuracy": 0.5595844601324137,
+  "target_oov_rate": 0.010358111096480993,
+  "known_target_top1": 0.32740298507462684,
+  "known_target_top5": 0.5654413646055437,
+  "evaluation_seconds": 33.96215354099968,
+  "without_loops": {
+    "examples": 284860,
+    "cross_entropy": 3.7746528827431813,
+    "vocabulary_perplexity": 43.58237749446932,
+    "top1_accuracy": 0.3160640314540476,
+    "top3_accuracy": 0.48167871937091905,
+    "top5_accuracy": 0.5562030471108614,
+    "target_oov_rate": 0.008811345924313652,
+    "known_target_top1": 0.31887373826810694,
+    "known_target_top5": 0.5611475119532495,
+    "evaluation_seconds": 33.19379587499952
+  },
+  "architecture": "transformer",
+  "best_epoch": 5,
+  "completed_epochs": 5,
+  "parameter_count": 5934368,
+  "checkpoint": "/Users/nandan/Downloads/trail-main/outputs/hindi_families/transformer_best.pt",
+  "validation": {
+    "examples": 293336,
+    "cross_entropy": 3.700324123321291,
+    "vocabulary_perplexity": 40.46041639953795,
+    "top1_accuracy": 0.3265333951509532,
+    "top3_accuracy": 0.4924557504022691,
+    "top5_accuracy": 0.5658357651294079,
+    "target_oov_rate": 0.00902378160198547,
+    "known_target_top1": 0.32950679248268766,
+    "known_target_top5": 0.5709882382890306,
+    "evaluation_seconds": 31.848949375000302
+  }
+}

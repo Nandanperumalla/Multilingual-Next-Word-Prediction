@@ -1,0 +1,10 @@
+{
+  "status": "training",
+  "architecture": "cnn",
+  "epoch": 1,
+  "requested_epochs": 5,
+  "batch": 100,
+  "batches": 6803,
+  "train_loss": 8.465159525871277,
+  "elapsed_seconds": 43.853147959000005
+}

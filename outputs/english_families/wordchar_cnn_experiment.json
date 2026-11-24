@@ -1,0 +1,18 @@
+{
+  "family": "wordchar",
+  "language": "english",
+  "seed": 42,
+  "batch_size": 512,
+  "epochs": 5,
+  "learning_rate": 0.001,
+  "device": "mps",
+  "model_config": {
+    "embedding_dim": 64,
+    "hidden_dim": 128,
+    "num_layers": 3,
+    "dropout": 0.0
+  },
+  "train_examples": 5165991,
+  "validation_examples": 285746,
+  "parameter_count": 4175856
+}

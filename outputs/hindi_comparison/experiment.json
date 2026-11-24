@@ -1,0 +1,22 @@
+{
+  "seed": 42,
+  "batch_size": 512,
+  "epochs": 3,
+  "threads": 4,
+  "train_examples": 5203483,
+  "validation_examples": 293336,
+  "data_hashes": {
+    "train": "cc33f4a4a5cbfd212b8c1936853b23edd2113c4cc2e066cb85b20fe61bc73ac4",
+    "validation": "cf1e794a97e36532c0a74b9c6877464dbe14380eeb6a1aa5be7f4914ba2fc59e",
+    "test": "5a2c0c83c1de2dc42c55857cc56b263dc78e28a691c2f899ce3645093bdb04de"
+  },
+  "model_config": {
+    "embedding_dim": 64,
+    "hidden_dim": 128,
+    "num_layers": 1,
+    "dropout": 0.0
+  },
+  "learning_rate": 0.001,
+  "device": "cpu",
+  "torch_version": "2.8.0"
+}

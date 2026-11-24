@@ -1,0 +1,19 @@
+{
+  "family": "transformer",
+  "language": "telugu",
+  "seed": 42,
+  "batch_size": 512,
+  "epochs": 5,
+  "learning_rate": 0.001,
+  "device": "mps",
+  "model_config": {
+    "embedding_dim": 128,
+    "num_layers": 4,
+    "num_heads": 4,
+    "feedforward_dim": 512,
+    "dropout": 0.1
+  },
+  "train_examples": 3483073,
+  "validation_examples": 198928,
+  "parameter_count": 5934368
+}

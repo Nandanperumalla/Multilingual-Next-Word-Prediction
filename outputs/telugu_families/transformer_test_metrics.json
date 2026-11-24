@@ -1,0 +1,41 @@
+{
+  "examples": 200092,
+  "cross_entropy": 4.936465369728753,
+  "vocabulary_perplexity": 139.2770854946553,
+  "top1_accuracy": 0.19489534813985568,
+  "top3_accuracy": 0.3113617735841513,
+  "top5_accuracy": 0.3656767886772085,
+  "target_oov_rate": 0.07207684465146036,
+  "known_target_top1": 0.21003393116820165,
+  "known_target_top5": 0.3940808962137125,
+  "evaluation_seconds": 16.13949241699993,
+  "without_loops": {
+    "examples": 200057,
+    "cross_entropy": 4.936254723190023,
+    "vocabulary_perplexity": 139.24775034845354,
+    "top1_accuracy": 0.19492444653273816,
+    "top3_accuracy": 0.3113962520681606,
+    "top5_accuracy": 0.3657207695806695,
+    "target_oov_rate": 0.07208945450546589,
+    "known_target_top1": 0.2100681444770652,
+    "known_target_top5": 0.39413364936569073,
+    "evaluation_seconds": 14.719397708000088
+  },
+  "architecture": "transformer",
+  "best_epoch": 5,
+  "completed_epochs": 5,
+  "parameter_count": 5934368,
+  "checkpoint": "/Users/nandan/Downloads/trail-main/outputs/telugu_families/transformer_best.pt",
+  "validation": {
+    "examples": 198928,
+    "cross_entropy": 4.978902438309574,
+    "vocabulary_perplexity": 145.31480213557106,
+    "top1_accuracy": 0.19371833025014076,
+    "top3_accuracy": 0.30990609667819513,
+    "top5_accuracy": 0.36313641116383816,
+    "target_oov_rate": 0.07056321885305239,
+    "known_target_top1": 0.20842550475685676,
+    "known_target_top5": 0.3907058753535867,
+    "evaluation_seconds": 14.788812291999875
+  }
+}

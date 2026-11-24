@@ -1,0 +1,41 @@
+{
+  "examples": 308909,
+  "cross_entropy": 4.559489991468083,
+  "vocabulary_perplexity": 95.53474386877704,
+  "top1_accuracy": 0.2563149665435452,
+  "top3_accuracy": 0.391066624798889,
+  "top5_accuracy": 0.4507346823821902,
+  "target_oov_rate": 0.014470280891783704,
+  "known_target_top1": 0.26007837366434655,
+  "known_target_top5": 0.4573527044826714,
+  "evaluation_seconds": 184.2067084170003,
+  "without_loops": {
+    "examples": 308539,
+    "cross_entropy": 4.5604386821496075,
+    "vocabulary_perplexity": 95.62541979494948,
+    "top1_accuracy": 0.2561912756572103,
+    "top3_accuracy": 0.39091978647756037,
+    "top5_accuracy": 0.45058809421175283,
+    "target_oov_rate": 0.014477910410029216,
+    "known_target_top1": 0.2599548791075798,
+    "known_target_top5": 0.45720750348601646,
+    "evaluation_seconds": 202.19094516699988
+  },
+  "architecture": "cnn",
+  "best_epoch": 5,
+  "completed_epochs": 5,
+  "parameter_count": 4164000,
+  "checkpoint": "/Users/nandan/Downloads/trail-main/outputs/english_families/cnn_best.pt",
+  "validation": {
+    "examples": 285746,
+    "cross_entropy": 4.6023493907206205,
+    "vocabulary_perplexity": 99.71831794373452,
+    "top1_accuracy": 0.2537498337684517,
+    "top3_accuracy": 0.3871620250152233,
+    "top5_accuracy": 0.4454375564312361,
+    "target_oov_rate": 0.015310800501144417,
+    "known_target_top1": 0.25769535595352755,
+    "known_target_top5": 0.4523636053466775,
+    "evaluation_seconds": 135.73672687499993
+  }
+}

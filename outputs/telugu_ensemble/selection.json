@@ -1,0 +1,22 @@
+{
+  "weights": {
+    "lstm": 0.3,
+    "bilstm_v2": 0.3,
+    "bilstm_v3": 0.1,
+    "counts": 0.3
+  },
+  "selection": "validation_top1",
+  "validation": {
+    "examples": 198928,
+    "top1_accuracy": 0.2082864151853937,
+    "top3_accuracy": 0.325404166331537,
+    "top5_accuracy": 0.37772963082120165
+  },
+  "hybrid_v2_validation": {
+    "examples": 198928,
+    "top1_accuracy": 0.2042095632590686,
+    "top3_accuracy": 0.31768780664360974,
+    "top5_accuracy": 0.3704556422424194
+  },
+  "candidates": 110
+}

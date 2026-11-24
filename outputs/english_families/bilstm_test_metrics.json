@@ -1,0 +1,41 @@
+{
+  "examples": 308909,
+  "cross_entropy": 4.539519876112888,
+  "vocabulary_perplexity": 93.64582772535826,
+  "top1_accuracy": 0.260400312066013,
+  "top3_accuracy": 0.39618787409884465,
+  "top5_accuracy": 0.4558138480911854,
+  "target_oov_rate": 0.014470280891783704,
+  "known_target_top1": 0.26422370327060596,
+  "known_target_top5": 0.46250644628316345,
+  "evaluation_seconds": 13.541379125000276,
+  "without_loops": {
+    "examples": 308539,
+    "cross_entropy": 4.5405855043851835,
+    "vocabulary_perplexity": 93.74567255625387,
+    "top1_accuracy": 0.26024910951289787,
+    "top3_accuracy": 0.39603421285477686,
+    "top5_accuracy": 0.45567335085677985,
+    "target_oov_rate": 0.014477910410029216,
+    "known_target_top1": 0.2640723249756637,
+    "known_target_top5": 0.46236746560025255,
+    "evaluation_seconds": 13.641760667000199
+  },
+  "architecture": "bilstm",
+  "best_epoch": 3,
+  "completed_epochs": 3,
+  "parameter_count": 6618656,
+  "checkpoint": "/Users/nandan/Downloads/trail-main/outputs/english_families/bilstm_best.pt",
+  "validation": {
+    "examples": 285746,
+    "cross_entropy": 4.586946963526331,
+    "vocabulary_perplexity": 98.19418164226832,
+    "top1_accuracy": 0.2571444569652769,
+    "top3_accuracy": 0.3908611144162998,
+    "top5_accuracy": 0.4502355238568519,
+    "target_oov_rate": 0.015310800501144417,
+    "known_target_top1": 0.2611427616918588,
+    "known_target_top5": 0.45723617572528796,
+    "evaluation_seconds": 12.69662262499969
+  }
+}

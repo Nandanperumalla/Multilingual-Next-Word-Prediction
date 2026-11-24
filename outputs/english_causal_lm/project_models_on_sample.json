@@ -1,0 +1,16 @@
+{
+  "best_neural_transformer": {
+    "examples": 500,
+    "top1_accuracy": 0.276,
+    "top3_accuracy": 0.412,
+    "top5_accuracy": 0.476,
+    "target_oov_rate": 0.01
+  },
+  "combined": {
+    "examples": 500,
+    "top1_accuracy": 0.316,
+    "top3_accuracy": 0.45,
+    "top5_accuracy": 0.494,
+    "target_oov_rate": 0.01
+  }
+}

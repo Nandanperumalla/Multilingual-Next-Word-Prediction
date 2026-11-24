@@ -1,0 +1,20 @@
+{
+  "ensemble": {
+    "examples": 200092,
+    "top1_accuracy": 0.21149771105291565,
+    "top3_accuracy": 0.32965335945465085,
+    "top5_accuracy": 0.38240409411670634
+  },
+  "hybrid_v2": {
+    "examples": 200092,
+    "top1_accuracy": 0.20842912260360233,
+    "top3_accuracy": 0.3231713411830558,
+    "top5_accuracy": 0.37458768966275513
+  },
+  "weights": {
+    "lstm": 0.3,
+    "bilstm_v2": 0.3,
+    "bilstm_v3": 0.1,
+    "counts": 0.3
+  }
+}

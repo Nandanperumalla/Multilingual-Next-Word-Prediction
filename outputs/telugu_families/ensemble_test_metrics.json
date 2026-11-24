@@ -1,0 +1,47 @@
+{
+  "ensemble": {
+    "examples": 200092,
+    "top1_accuracy": 0.21689023049397277,
+    "top3_accuracy": 0.33655018691401956,
+    "top5_accuracy": 0.39115506866841254,
+    "cross_entropy": 4.771885704060507,
+    "vocabulary_perplexity": 118.14181253921682,
+    "target_oov_rate": 0.07207684465146036,
+    "without_loops": {
+      "examples": 200057,
+      "top1_accuracy": 0.21691317974377303,
+      "top3_accuracy": 0.33657407638822934,
+      "top5_accuracy": 0.3911835126988808,
+      "cross_entropy": 4.7717158019632375,
+      "vocabulary_perplexity": 118.12174170257809
+    }
+  },
+  "hybrid": {
+    "examples": 200092,
+    "top1_accuracy": 0.20751454331007738,
+    "top3_accuracy": 0.32300141934710036,
+    "top5_accuracy": 0.3750074965515863,
+    "cross_entropy": 5.092595641478552,
+    "vocabulary_perplexity": 162.8119154277936,
+    "target_oov_rate": 0.07207684465146036,
+    "without_loops": {
+      "examples": 200057,
+      "top1_accuracy": 0.20753585228209961,
+      "top3_accuracy": 0.3230279370379442,
+      "top5_accuracy": 0.37503811413747085,
+      "cross_entropy": 5.092381758967249,
+      "vocabulary_perplexity": 162.77709653016112
+    }
+  },
+  "weights": {
+    "bilstm_v3": 0.2,
+    "cnn_v2": 0.2,
+    "transformer": 0.3,
+    "counts": 0.3
+  },
+  "validation_top1": {
+    "ensemble": 0.21346416794015927,
+    "hybrid": 0.20426485964771174
+  },
+  "neural_parameter_count": 16717024
+}

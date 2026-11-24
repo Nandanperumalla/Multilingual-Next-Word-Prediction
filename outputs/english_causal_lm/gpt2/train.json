@@ -1,0 +1,12 @@
+{
+  "model": "gpt2",
+  "sentences": 20000,
+  "steps": 2500,
+  "batch_size": 8,
+  "micro_batch": 4,
+  "lr": 5e-05,
+  "max_length": 64,
+  "seed": 42,
+  "final_loss": 4.021306300163269,
+  "minutes": 7.601863034566244
+}

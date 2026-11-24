@@ -1,0 +1,41 @@
+{
+  "examples": 308909,
+  "cross_entropy": 4.7483477173916535,
+  "vocabulary_perplexity": 115.3934643119389,
+  "top1_accuracy": 0.24558041364932715,
+  "top3_accuracy": 0.37420729082027393,
+  "top5_accuracy": 0.43132443535151127,
+  "target_oov_rate": 0.014470280891783704,
+  "known_target_top1": 0.24918620807452396,
+  "known_target_top5": 0.4376574617575278,
+  "evaluation_seconds": 24.34335704099999,
+  "without_loops": {
+    "examples": 308539,
+    "cross_entropy": 4.749318873222495,
+    "vocabulary_perplexity": 115.50558378157271,
+    "top1_accuracy": 0.24546653745555666,
+    "top3_accuracy": 0.37405968127205963,
+    "top5_accuracy": 0.4311934633871245,
+    "target_oov_rate": 0.014477910410029216,
+    "known_target_top1": 0.24907258807124627,
+    "known_target_top5": 0.4375279539056539,
+    "evaluation_seconds": 24.84232850000012
+  },
+  "architecture": "lstm",
+  "best_epoch": 3,
+  "completed_epochs": 3,
+  "parameter_count": 3959328,
+  "checkpoint": "/Users/nandan/Downloads/trail-main/outputs/english_families/lstm_best.pt",
+  "validation": {
+    "examples": 285746,
+    "cross_entropy": 4.791312927456276,
+    "vocabulary_perplexity": 120.45941936501019,
+    "top1_accuracy": 0.24392642416691748,
+    "top3_accuracy": 0.3697409587535784,
+    "top5_accuracy": 0.42620019177871254,
+    "target_oov_rate": 0.015310800501144417,
+    "known_target_top1": 0.2477192034715731,
+    "known_target_top5": 0.432827121487289,
+    "evaluation_seconds": 23.889804500000082
+  }
+}

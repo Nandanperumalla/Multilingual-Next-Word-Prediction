@@ -1,0 +1,34 @@
+{
+  "examples_per_split": 100000,
+  "seed": 42,
+  "results": {
+    "train": {
+      "bilstm": {
+        "top1": 25.43,
+        "top5": 44.25
+      },
+      "hybrid": {
+        "top1": 31.97,
+        "top5": 63.7
+      },
+      "ngram": {
+        "top1": 27.31,
+        "top5": 58.84
+      }
+    },
+    "test": {
+      "bilstm": {
+        "top1": 19.28,
+        "top5": 35.47
+      },
+      "hybrid": {
+        "top1": 20.75,
+        "top5": 37.42
+      },
+      "ngram": {
+        "top1": 18.32,
+        "top5": 33.84
+      }
+    }
+  }
+}

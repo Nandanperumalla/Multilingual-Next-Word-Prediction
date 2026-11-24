@@ -1,0 +1,18 @@
+{
+  "examples": 200092,
+  "cross_entropy": 5.187118558031665,
+  "vocabulary_perplexity": 178.95216903381808,
+  "top1_accuracy": 0.18795354137096934,
+  "top3_accuracy": 0.2972632589009056,
+  "top5_accuracy": 0.348514683245707,
+  "target_oov_rate": 0.07207684465146036,
+  "known_target_top1": 0.20255291646469542,
+  "known_target_top5": 0.375585716593957,
+  "evaluation_seconds": 16.467563500000324,
+  "architecture": "bilstm",
+  "best_epoch": 5,
+  "completed_epochs": 5,
+  "parameter_count": 6618656,
+  "checkpoint": "outputs/telugu_seeds/seed_1/bilstm_best.pt",
+  "training_examples_per_epoch": 3483073
+}

@@ -1,0 +1,41 @@
+{
+  "examples": 296193,
+  "cross_entropy": 3.9789407471767246,
+  "vocabulary_perplexity": 53.46037617079323,
+  "top1_accuracy": 0.30257298450672365,
+  "top3_accuracy": 0.4592917455848045,
+  "top5_accuracy": 0.5311638019804654,
+  "target_oov_rate": 0.010358111096480993,
+  "known_target_top1": 0.3057398720682303,
+  "known_target_top5": 0.5367232409381663,
+  "evaluation_seconds": 219.89233549999972,
+  "without_loops": {
+    "examples": 284860,
+    "cross_entropy": 4.003072047941656,
+    "vocabulary_perplexity": 54.76613606603139,
+    "top1_accuracy": 0.29590676121603593,
+    "top3_accuracy": 0.45622059959278244,
+    "top5_accuracy": 0.5292178614056028,
+    "target_oov_rate": 0.008811345924313652,
+    "known_target_top1": 0.2985372764299628,
+    "known_target_top5": 0.5339224366920489,
+    "evaluation_seconds": 211.35989229100005
+  },
+  "architecture": "wordchar_cnn",
+  "best_epoch": 5,
+  "completed_epochs": 5,
+  "parameter_count": 4176592,
+  "checkpoint": "/Users/nandan/Downloads/trail-main/outputs/hindi_families/wordchar_cnn_best.pt",
+  "validation": {
+    "examples": 293336,
+    "cross_entropy": 3.924218291429007,
+    "vocabulary_perplexity": 50.6134975857859,
+    "top1_accuracy": 0.30864264870319363,
+    "top3_accuracy": 0.46656053126789754,
+    "top5_accuracy": 0.5383348787738294,
+    "target_oov_rate": 0.00902378160198547,
+    "known_target_top1": 0.31145313376151146,
+    "known_target_top5": 0.5432369301899969,
+    "evaluation_seconds": 217.55604025000002
+  }
+}

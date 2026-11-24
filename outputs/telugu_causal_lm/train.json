@@ -1,0 +1,12 @@
+{
+  "model": "bigscience/bloom-560m",
+  "sentences": 20000,
+  "steps": 2500,
+  "batch_size": 8,
+  "micro_batch": 4,
+  "lr": 5e-05,
+  "max_length": 64,
+  "seed": 42,
+  "final_loss": 5.033739335536957,
+  "minutes": 30.201405016581216
+}

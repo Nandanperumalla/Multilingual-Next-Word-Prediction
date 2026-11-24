@@ -1,0 +1,41 @@
+{
+  "examples": 308909,
+  "cross_entropy": 4.538489768826856,
+  "vocabulary_perplexity": 93.54941214363414,
+  "top1_accuracy": 0.2566742956663613,
+  "top3_accuracy": 0.3922093561534303,
+  "top5_accuracy": 0.45177382335898275,
+  "target_oov_rate": 0.014470280891783704,
+  "known_target_top1": 0.260442978724802,
+  "known_target_top5": 0.4584071029007453,
+  "evaluation_seconds": 152.8859438329996,
+  "without_loops": {
+    "examples": 308539,
+    "cross_entropy": 4.539593623898513,
+    "vocabulary_perplexity": 93.65273415244974,
+    "top1_accuracy": 0.25651862487400295,
+    "top3_accuracy": 0.3920444417075313,
+    "top5_accuracy": 0.4516284813265098,
+    "target_oov_rate": 0.014477910410029216,
+    "known_target_top1": 0.26028703728064406,
+    "known_target_top5": 0.45826317451129994,
+    "evaluation_seconds": 156.30578612499994
+  },
+  "architecture": "wordchar_cnn",
+  "best_epoch": 5,
+  "completed_epochs": 5,
+  "parameter_count": 4175856,
+  "checkpoint": "/Users/nandan/Downloads/trail-main/outputs/english_families/wordchar_cnn_best.pt",
+  "validation": {
+    "examples": 285746,
+    "cross_entropy": 4.584013069187382,
+    "vocabulary_perplexity": 97.90651249042666,
+    "top1_accuracy": 0.2535118601835196,
+    "top3_accuracy": 0.38743499471558657,
+    "top5_accuracy": 0.44611648107060115,
+    "target_oov_rate": 0.015310800501144417,
+    "known_target_top1": 0.2574536821491909,
+    "known_target_top5": 0.4530530864943438,
+    "evaluation_seconds": 144.2779946249998
+  }
+}

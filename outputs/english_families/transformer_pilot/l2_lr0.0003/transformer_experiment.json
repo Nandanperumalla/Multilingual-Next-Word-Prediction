@@ -1,0 +1,19 @@
+{
+  "family": "transformer",
+  "language": "english",
+  "seed": 42,
+  "batch_size": 512,
+  "epochs": 1,
+  "learning_rate": 0.0003,
+  "device": "mps",
+  "model_config": {
+    "embedding_dim": 128,
+    "num_layers": 2,
+    "num_heads": 4,
+    "feedforward_dim": 512,
+    "dropout": 0.1
+  },
+  "train_examples": 1000000,
+  "validation_examples": 285746,
+  "parameter_count": 5537824
+}

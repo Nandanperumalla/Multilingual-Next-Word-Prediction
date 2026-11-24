@@ -1,0 +1,42 @@
+{
+  "status": "complete",
+  "requested_epochs": 5,
+  "results": {
+    "lstm": {
+      "examples": 200092,
+      "cross_entropy": 5.301207962891757,
+      "vocabulary_perplexity": 200.57895562913228,
+      "top1_accuracy": 0.18010215300961557,
+      "top3_accuracy": 0.2862633188733183,
+      "top5_accuracy": 0.33571057313635727,
+      "target_oov_rate": 0.07207684465146036,
+      "known_target_top1": 0.1940916680131416,
+      "known_target_top5": 0.3617870415252868,
+      "evaluation_seconds": 11.152244458000002,
+      "architecture": "lstm",
+      "best_epoch": 5,
+      "completed_epochs": 5,
+      "parameter_count": 3959328,
+      "checkpoint": "outputs/telugu_seeds/seed_3/lstm_best.pt",
+      "training_examples_per_epoch": 3483073
+    },
+    "bilstm": {
+      "examples": 200092,
+      "cross_entropy": 5.191678516115009,
+      "vocabulary_perplexity": 179.7700467503962,
+      "top1_accuracy": 0.18740879195570037,
+      "top3_accuracy": 0.2973832037262859,
+      "top5_accuracy": 0.3480598924494732,
+      "target_oov_rate": 0.07207684465146036,
+      "known_target_top1": 0.20196585339580977,
+      "known_target_top5": 0.3750955997199332,
+      "evaluation_seconds": 12.173069374999614,
+      "architecture": "bilstm",
+      "best_epoch": 5,
+      "completed_epochs": 5,
+      "parameter_count": 6618656,
+      "checkpoint": "outputs/telugu_seeds/seed_3/bilstm_best.pt",
+      "training_examples_per_epoch": 3483073
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "examples": 308909,
+  "cross_entropy": 4.224323428783272,
+  "vocabulary_perplexity": 68.32825897313747,
+  "top1_accuracy": 0.2773179156321117,
+  "top3_accuracy": 0.4258309081315209,
+  "top5_accuracy": 0.48867142103337874,
+  "target_oov_rate": 0.014470280891783704,
+  "known_target_top1": 0.28138970368448196,
+  "known_target_top5": 0.4958464585680547,
+  "evaluation_seconds": 22.942039292000118,
+  "without_loops": {
+    "examples": 308539,
+    "cross_entropy": 4.225217806126844,
+    "vocabulary_perplexity": 68.38939755629511,
+    "top1_accuracy": 0.27720644715903014,
+    "top3_accuracy": 0.42572900022363463,
+    "top5_accuracy": 0.4885411568715786,
+    "target_oov_rate": 0.014477910410029216,
+    "known_target_top1": 0.28127877607934965,
+    "known_target_top5": 0.4957181193927754,
+    "evaluation_seconds": 23.029264458999933
+  },
+  "architecture": "transformer",
+  "best_epoch": 5,
+  "completed_epochs": 5,
+  "parameter_count": 5934368,
+  "checkpoint": "/Users/nandan/Downloads/trail-main/outputs/english_families/transformer_best.pt",
+  "validation": {
+    "examples": 285746,
+    "cross_entropy": 4.270055058586983,
+    "vocabulary_perplexity": 71.52557360782421,
+    "top1_accuracy": 0.2753459366010373,
+    "top3_accuracy": 0.4204678280710841,
+    "top5_accuracy": 0.4821624799647239,
+    "target_oov_rate": 0.015310800501144417,
+    "known_target_top1": 0.2796272536970761,
+    "known_target_top5": 0.48965955979827347,
+    "evaluation_seconds": 21.684208041000147
+  }
+}

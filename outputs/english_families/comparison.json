@@ -1,0 +1,269 @@
+{
+  "language": "english",
+  "best": "ensemble",
+  "best_by": "validation Top-1",
+  "models": [
+    {
+      "key": "ensemble",
+      "name": "Combined",
+      "parameters": 12553024,
+      "validation_top1": 0.30213546296361105,
+      "without_loops": {
+        "examples": 308539,
+        "top1_accuracy": 0.30483018354243707,
+        "top3_accuracy": 0.4565063087648563,
+        "top5_accuracy": 0.5190753843112216,
+        "cross_entropy": 4.052810422511164,
+        "vocabulary_perplexity": 57.558995039492416
+      },
+      "examples": 308909,
+      "top1_accuracy": 0.30499273248756104,
+      "top3_accuracy": 0.4566231479173478,
+      "top5_accuracy": 0.5191884988783104,
+      "vocabulary_perplexity": 57.502807987396615,
+      "target_oov_rate": 0.014470280891783704
+    },
+    {
+      "key": "hybrid",
+      "name": "Hybrid",
+      "parameters": 6618656,
+      "validation_top1": 0.2917486159036347,
+      "without_loops": {
+        "examples": 308539,
+        "top1_accuracy": 0.2944425178016393,
+        "top3_accuracy": 0.4401161603557411,
+        "top5_accuracy": 0.5016707774381844,
+        "cross_entropy": 4.301141896659159,
+        "vocabulary_perplexity": 73.78399931570809
+      },
+      "examples": 308909,
+      "top1_accuracy": 0.29463045751337774,
+      "top3_accuracy": 0.4402429194358209,
+      "top5_accuracy": 0.5017723666192957,
+      "vocabulary_perplexity": 73.7092995314034,
+      "target_oov_rate": 0.014470280891783704
+    },
+    {
+      "key": "transformer",
+      "name": "Transformer",
+      "parameters": 5934368,
+      "validation_top1": 0.2753459366010373,
+      "without_loops": {
+        "examples": 308539,
+        "cross_entropy": 4.225217806126844,
+        "vocabulary_perplexity": 68.38939755629511,
+        "top1_accuracy": 0.27720644715903014,
+        "top3_accuracy": 0.42572900022363463,
+        "top5_accuracy": 0.4885411568715786,
+        "target_oov_rate": 0.014477910410029216,
+        "known_target_top1": 0.28127877607934965,
+        "known_target_top5": 0.4957181193927754,
+        "evaluation_seconds": 23.029264458999933
+      },
+      "examples": 308909,
+      "top1_accuracy": 0.2773179156321117,
+      "top3_accuracy": 0.4258309081315209,
+      "top5_accuracy": 0.48867142103337874,
+      "vocabulary_perplexity": 68.32825897313747,
+      "target_oov_rate": 0.014470280891783704
+    },
+    {
+      "key": "bilstm",
+      "name": "Bi-LSTM",
+      "parameters": 6618656,
+      "validation_top1": 0.2571444569652769,
+      "without_loops": {
+        "examples": 308539,
+        "cross_entropy": 4.5405855043851835,
+        "vocabulary_perplexity": 93.74567255625387,
+        "top1_accuracy": 0.26024910951289787,
+        "top3_accuracy": 0.39603421285477686,
+        "top5_accuracy": 0.45567335085677985,
+        "target_oov_rate": 0.014477910410029216,
+        "known_target_top1": 0.2640723249756637,
+        "known_target_top5": 0.46236746560025255,
+        "evaluation_seconds": 13.641760667000199
+      },
+      "examples": 308909,
+      "top1_accuracy": 0.260400312066013,
+      "top3_accuracy": 0.39618787409884465,
+      "top5_accuracy": 0.4558138480911854,
+      "vocabulary_perplexity": 93.64582772535826,
+      "target_oov_rate": 0.014470280891783704
+    },
+    {
+      "key": "cnn",
+      "name": "Gated CNN",
+      "parameters": 4164000,
+      "validation_top1": 0.2537498337684517,
+      "without_loops": {
+        "examples": 308539,
+        "cross_entropy": 4.5604386821496075,
+        "vocabulary_perplexity": 95.62541979494948,
+        "top1_accuracy": 0.2561912756572103,
+        "top3_accuracy": 0.39091978647756037,
+        "top5_accuracy": 0.45058809421175283,
+        "target_oov_rate": 0.014477910410029216,
+        "known_target_top1": 0.2599548791075798,
+        "known_target_top5": 0.45720750348601646,
+        "evaluation_seconds": 202.19094516699988
+      },
+      "examples": 308909,
+      "top1_accuracy": 0.2563149665435452,
+      "top3_accuracy": 0.391066624798889,
+      "top5_accuracy": 0.4507346823821902,
+      "vocabulary_perplexity": 95.53474386877704,
+      "target_oov_rate": 0.014470280891783704
+    },
+    {
+      "key": "wordchar_cnn",
+      "name": "Word-character CNN",
+      "parameters": 4175856,
+      "validation_top1": 0.2535118601835196,
+      "without_loops": {
+        "examples": 308539,
+        "cross_entropy": 4.539593623898513,
+        "vocabulary_perplexity": 93.65273415244974,
+        "top1_accuracy": 0.25651862487400295,
+        "top3_accuracy": 0.3920444417075313,
+        "top5_accuracy": 0.4516284813265098,
+        "target_oov_rate": 0.014477910410029216,
+        "known_target_top1": 0.26028703728064406,
+        "known_target_top5": 0.45826317451129994,
+        "evaluation_seconds": 156.30578612499994
+      },
+      "examples": 308909,
+      "top1_accuracy": 0.2566742956663613,
+      "top3_accuracy": 0.3922093561534303,
+      "top5_accuracy": 0.45177382335898275,
+      "vocabulary_perplexity": 93.54941214363414,
+      "target_oov_rate": 0.014470280891783704
+    },
+    {
+      "key": "gru",
+      "name": "GRU",
+      "parameters": 3934496,
+      "validation_top1": 0.24452835735233389,
+      "without_loops": {
+        "examples": 308539,
+        "cross_entropy": 4.7226041398844885,
+        "vocabulary_perplexity": 112.46073515572074,
+        "top1_accuracy": 0.24658146944146445,
+        "top3_accuracy": 0.3768761809690185,
+        "top5_accuracy": 0.4338479090163642,
+        "target_oov_rate": 0.014477910410029216,
+        "known_target_top1": 0.2502038990765345,
+        "known_target_top5": 0.44022139493277906,
+        "evaluation_seconds": 10.43481662499994
+      },
+      "examples": 308909,
+      "top1_accuracy": 0.2466940102101266,
+      "top3_accuracy": 0.37698804502296795,
+      "top5_accuracy": 0.4339951247778472,
+      "vocabulary_perplexity": 112.34281033939736,
+      "target_oov_rate": 0.014470280891783704
+    },
+    {
+      "key": "lstm",
+      "name": "LSTM",
+      "parameters": 3959328,
+      "validation_top1": 0.24392642416691748,
+      "without_loops": {
+        "examples": 308539,
+        "cross_entropy": 4.749318873222495,
+        "vocabulary_perplexity": 115.50558378157271,
+        "top1_accuracy": 0.24546653745555666,
+        "top3_accuracy": 0.37405968127205963,
+        "top5_accuracy": 0.4311934633871245,
+        "target_oov_rate": 0.014477910410029216,
+        "known_target_top1": 0.24907258807124627,
+        "known_target_top5": 0.4375279539056539,
+        "evaluation_seconds": 24.84232850000012
+      },
+      "examples": 308909,
+      "top1_accuracy": 0.24558041364932715,
+      "top3_accuracy": 0.37420729082027393,
+      "top5_accuracy": 0.43132443535151127,
+      "vocabulary_perplexity": 115.3934643119389,
+      "target_oov_rate": 0.014470280891783704
+    }
+  ],
+  "sample": [
+    {
+      "name": "Best neural (Transformer)",
+      "examples": 500,
+      "top1_accuracy": 0.276,
+      "top3_accuracy": 0.412,
+      "top5_accuracy": 0.476,
+      "target_oov_rate": 0.01
+    },
+    {
+      "name": "Combined",
+      "examples": 500,
+      "top1_accuracy": 0.316,
+      "top3_accuracy": 0.45,
+      "top5_accuracy": 0.494,
+      "target_oov_rate": 0.01
+    },
+    {
+      "name": "bloom-560m, LoRA fine-tuned",
+      "model": "bigscience/bloom-560m",
+      "fine_tuned": true,
+      "examples": 500,
+      "top1_accuracy": 0.32,
+      "top3_accuracy": 0.47,
+      "top5_accuracy": 0.52,
+      "target_oov_rate": 0.01,
+      "word_starts": 30,
+      "seconds": 357.1212549209595,
+      "note": "Sample only; words ranked by greedy completion; OOV targets are misses."
+    },
+    {
+      "name": "bloom-560m, no fine-tuning",
+      "model": "bigscience/bloom-560m",
+      "fine_tuned": false,
+      "examples": 500,
+      "top1_accuracy": 0.292,
+      "top3_accuracy": 0.446,
+      "top5_accuracy": 0.494,
+      "target_oov_rate": 0.01,
+      "word_starts": 30,
+      "seconds": 198.15340900421143,
+      "note": "Sample only; words ranked by greedy completion; OOV targets are misses."
+    },
+    {
+      "name": "gpt2, LoRA fine-tuned",
+      "model": "gpt2",
+      "fine_tuned": true,
+      "examples": 500,
+      "top1_accuracy": 0.316,
+      "top3_accuracy": 0.45,
+      "top5_accuracy": 0.506,
+      "target_oov_rate": 0.01,
+      "word_starts": 30,
+      "seconds": 43.95503091812134,
+      "note": "Sample only; words ranked by greedy completion; OOV targets are misses."
+    },
+    {
+      "name": "gpt2, no fine-tuning",
+      "model": "gpt2",
+      "fine_tuned": false,
+      "examples": 500,
+      "top1_accuracy": 0.288,
+      "top3_accuracy": 0.422,
+      "top5_accuracy": 0.466,
+      "target_oov_rate": 0.01,
+      "word_starts": 30,
+      "seconds": 37.60669779777527,
+      "note": "Sample only; words ranked by greedy completion; OOV targets are misses."
+    }
+  ],
+  "weights": {
+    "bilstm": 0.2,
+    "cnn": 0.0,
+    "transformer": 0.4,
+    "counts": 0.4
+  },
+  "hybrid_alpha": 0.5,
+  "hybrid_neural": "bilstm"
+}

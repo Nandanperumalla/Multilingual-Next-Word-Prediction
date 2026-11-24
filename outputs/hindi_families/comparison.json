@@ -1,0 +1,243 @@
+{
+  "language": "hindi",
+  "best": "ensemble",
+  "best_by": "validation Top-1",
+  "models": [
+    {
+      "key": "ensemble",
+      "name": "Combined",
+      "parameters": 12553024,
+      "validation_top1": 0.34754002236343307,
+      "without_loops": {
+        "examples": 284860,
+        "top1_accuracy": 0.3349926279575932,
+        "top3_accuracy": 0.5024503264761637,
+        "top5_accuracy": 0.5745524117110159,
+        "cross_entropy": 3.6665983247479086,
+        "vocabulary_perplexity": 39.118610465898705
+      },
+      "examples": 296193,
+      "top1_accuracy": 0.341527314960178,
+      "top3_accuracy": 0.5052448910001249,
+      "top5_accuracy": 0.5761986272464238,
+      "vocabulary_perplexity": 37.84067698154233,
+      "target_oov_rate": 0.010358111096480993
+    },
+    {
+      "key": "hybrid",
+      "name": "Hybrid",
+      "parameters": 6618656,
+      "validation_top1": 0.336511713529877,
+      "without_loops": {
+        "examples": 284860,
+        "top1_accuracy": 0.3234676683283016,
+        "top3_accuracy": 0.4857403636874254,
+        "top5_accuracy": 0.5568770624166257,
+        "cross_entropy": 3.8801460000158468,
+        "vocabulary_perplexity": 48.431285523643474
+      },
+      "examples": 296193,
+      "top1_accuracy": 0.3287451087635427,
+      "top3_accuracy": 0.48714858217446055,
+      "top5_accuracy": 0.5568632614545246,
+      "vocabulary_perplexity": 47.76152770844932,
+      "target_oov_rate": 0.010358111096480993
+    },
+    {
+      "key": "transformer",
+      "name": "Transformer",
+      "parameters": 5934368,
+      "validation_top1": 0.3265333951509532,
+      "without_loops": {
+        "examples": 284860,
+        "cross_entropy": 3.7746528827431813,
+        "vocabulary_perplexity": 43.58237749446932,
+        "top1_accuracy": 0.3160640314540476,
+        "top3_accuracy": 0.48167871937091905,
+        "top5_accuracy": 0.5562030471108614,
+        "target_oov_rate": 0.008811345924313652,
+        "known_target_top1": 0.31887373826810694,
+        "known_target_top5": 0.5611475119532495,
+        "evaluation_seconds": 33.19379587499952
+      },
+      "examples": 296193,
+      "top1_accuracy": 0.32401170858190437,
+      "top3_accuracy": 0.48659826532024725,
+      "top5_accuracy": 0.5595844601324137,
+      "vocabulary_perplexity": 41.8072405433928,
+      "target_oov_rate": 0.010358111096480993
+    },
+    {
+      "key": "bilstm",
+      "name": "Bi-LSTM",
+      "parameters": 6618656,
+      "validation_top1": 0.3115130771538441,
+      "without_loops": {
+        "examples": 284860,
+        "cross_entropy": 3.9982480424697386,
+        "vocabulary_perplexity": 54.50258013470178,
+        "top1_accuracy": 0.2996875658218072,
+        "top3_accuracy": 0.45859720564487816,
+        "top5_accuracy": 0.530822158253177,
+        "target_oov_rate": 0.008811345924313652,
+        "known_target_top1": 0.3023516911634496,
+        "known_target_top5": 0.5355409952187002,
+        "evaluation_seconds": 26.584087417
+      },
+      "examples": 296193,
+      "top1_accuracy": 0.3056588103027418,
+      "top3_accuracy": 0.4608076490666559,
+      "top5_accuracy": 0.5317883947291124,
+      "vocabulary_perplexity": 53.283967031939355,
+      "target_oov_rate": 0.010358111096480993
+    },
+    {
+      "key": "wordchar_cnn",
+      "name": "Word-character CNN",
+      "parameters": 4176592,
+      "validation_top1": 0.30864264870319363,
+      "without_loops": {
+        "examples": 284860,
+        "cross_entropy": 4.003072047941656,
+        "vocabulary_perplexity": 54.76613606603139,
+        "top1_accuracy": 0.29590676121603593,
+        "top3_accuracy": 0.45622059959278244,
+        "top5_accuracy": 0.5292178614056028,
+        "target_oov_rate": 0.008811345924313652,
+        "known_target_top1": 0.2985372764299628,
+        "known_target_top5": 0.5339224366920489,
+        "evaluation_seconds": 211.35989229100005
+      },
+      "examples": 296193,
+      "top1_accuracy": 0.30257298450672365,
+      "top3_accuracy": 0.4592917455848045,
+      "top5_accuracy": 0.5311638019804654,
+      "vocabulary_perplexity": 53.46037617079323,
+      "target_oov_rate": 0.010358111096480993
+    },
+    {
+      "key": "cnn",
+      "name": "Gated CNN",
+      "parameters": 4164000,
+      "validation_top1": 0.3058949464095781,
+      "without_loops": {
+        "examples": 284860,
+        "cross_entropy": 4.026615434702984,
+        "vocabulary_perplexity": 56.07081439840867,
+        "top1_accuracy": 0.2947518079056379,
+        "top3_accuracy": 0.45322263568068527,
+        "top5_accuracy": 0.5258583163659342,
+        "target_oov_rate": 0.008811345924313652,
+        "known_target_top1": 0.29737205595891625,
+        "known_target_top5": 0.5305330263856916,
+        "evaluation_seconds": 187.78220691600018
+      },
+      "examples": 296193,
+      "top1_accuracy": 0.3005844162421124,
+      "top3_accuracy": 0.4568372648914728,
+      "top5_accuracy": 0.5281151141316641,
+      "vocabulary_perplexity": 55.089947543219075,
+      "target_oov_rate": 0.010358111096480993
+    },
+    {
+      "key": "gru",
+      "name": "GRU",
+      "parameters": 3934496,
+      "validation_top1": 0.29815638039654185,
+      "without_loops": {
+        "examples": 284860,
+        "cross_entropy": 4.141062372410254,
+        "vocabulary_perplexity": 62.86957688728472,
+        "top1_accuracy": 0.28520325774064453,
+        "top3_accuracy": 0.44171522853331463,
+        "top5_accuracy": 0.5141824053921225,
+        "target_oov_rate": 0.008811345924313652,
+        "known_target_top1": 0.2877386222773154,
+        "known_target_top5": 0.518753320347087,
+        "evaluation_seconds": 10.942728541000179
+      },
+      "examples": 296193,
+      "top1_accuracy": 0.28996971569213315,
+      "top3_accuracy": 0.4436532936294916,
+      "top5_accuracy": 0.5139959418352223,
+      "vocabulary_perplexity": 62.0598479089392,
+      "target_oov_rate": 0.010358111096480993
+    },
+    {
+      "key": "lstm",
+      "name": "LSTM",
+      "parameters": 3959328,
+      "validation_top1": 0.2966598030926992,
+      "without_loops": {
+        "examples": 284860,
+        "cross_entropy": 4.140523900318152,
+        "vocabulary_perplexity": 62.83573248763877,
+        "top1_accuracy": 0.28728498209646847,
+        "top3_accuracy": 0.4428772028364811,
+        "top5_accuracy": 0.5142034683704276,
+        "target_oov_rate": 0.008811345924313652,
+        "known_target_top1": 0.28983885248804675,
+        "known_target_top5": 0.5187745705684434,
+        "evaluation_seconds": 17.5627665
+      },
+      "examples": 296193,
+      "top1_accuracy": 0.29209670721455266,
+      "top3_accuracy": 0.44435553844959197,
+      "top5_accuracy": 0.5142288980495825,
+      "vocabulary_perplexity": 61.49133019791045,
+      "target_oov_rate": 0.010358111096480993
+    }
+  ],
+  "sample": [
+    {
+      "name": "Best neural (Transformer)",
+      "examples": 500,
+      "top1_accuracy": 0.332,
+      "top3_accuracy": 0.5,
+      "top5_accuracy": 0.566,
+      "target_oov_rate": 0.01
+    },
+    {
+      "name": "Combined",
+      "examples": 500,
+      "top1_accuracy": 0.36,
+      "top3_accuracy": 0.526,
+      "top5_accuracy": 0.602,
+      "target_oov_rate": 0.01
+    },
+    {
+      "name": "bloom-560m, LoRA fine-tuned",
+      "model": "bigscience/bloom-560m",
+      "fine_tuned": true,
+      "examples": 500,
+      "top1_accuracy": 0.304,
+      "top3_accuracy": 0.434,
+      "top5_accuracy": 0.518,
+      "target_oov_rate": 0.01,
+      "word_starts": 30,
+      "seconds": 519.9767069816589,
+      "note": "Sample only; words ranked by greedy completion; OOV targets are misses."
+    },
+    {
+      "name": "bloom-560m, no fine-tuning",
+      "model": "bigscience/bloom-560m",
+      "fine_tuned": false,
+      "examples": 500,
+      "top1_accuracy": 0.254,
+      "top3_accuracy": 0.384,
+      "top5_accuracy": 0.454,
+      "target_oov_rate": 0.01,
+      "word_starts": 30,
+      "seconds": 375.4900300502777,
+      "note": "Sample only; words ranked by greedy completion; OOV targets are misses."
+    }
+  ],
+  "weights": {
+    "bilstm": 0.3,
+    "wordchar_cnn": 0.0,
+    "transformer": 0.4,
+    "counts": 0.3
+  },
+  "hybrid_alpha": 0.5,
+  "hybrid_neural": "bilstm"
+}

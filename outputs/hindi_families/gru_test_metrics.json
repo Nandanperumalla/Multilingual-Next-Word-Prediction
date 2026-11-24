@@ -1,0 +1,41 @@
+{
+  "examples": 296193,
+  "cross_entropy": 4.12809920830726,
+  "vocabulary_perplexity": 62.0598479089392,
+  "top1_accuracy": 0.28996971569213315,
+  "top3_accuracy": 0.4436532936294916,
+  "top5_accuracy": 0.5139959418352223,
+  "target_oov_rate": 0.010358111096480993,
+  "known_target_top1": 0.2930046908315565,
+  "known_target_top5": 0.5193756929637526,
+  "evaluation_seconds": 10.580949749999945,
+  "without_loops": {
+    "examples": 284860,
+    "cross_entropy": 4.141062372410254,
+    "vocabulary_perplexity": 62.86957688728472,
+    "top1_accuracy": 0.28520325774064453,
+    "top3_accuracy": 0.44171522853331463,
+    "top5_accuracy": 0.5141824053921225,
+    "target_oov_rate": 0.008811345924313652,
+    "known_target_top1": 0.2877386222773154,
+    "known_target_top5": 0.518753320347087,
+    "evaluation_seconds": 10.942728541000179
+  },
+  "architecture": "gru",
+  "best_epoch": 3,
+  "completed_epochs": 3,
+  "parameter_count": 3934496,
+  "checkpoint": "/Users/nandan/Downloads/trail-main/outputs/hindi_families/gru_best.pt",
+  "validation": {
+    "examples": 293336,
+    "cross_entropy": 4.073400752897541,
+    "vocabulary_perplexity": 58.75643934542405,
+    "top1_accuracy": 0.29815638039654185,
+    "top3_accuracy": 0.45337428750647724,
+    "top5_accuracy": 0.5236043308697194,
+    "target_oov_rate": 0.00902378160198547,
+    "known_target_top1": 0.3008713780019196,
+    "known_target_top5": 0.5283722466278393,
+    "evaluation_seconds": 10.506671333999975
+  }
+}

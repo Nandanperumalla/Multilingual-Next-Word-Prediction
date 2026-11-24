@@ -1,0 +1,41 @@
+{
+  "examples": 308909,
+  "cross_entropy": 4.721555003164868,
+  "vocabulary_perplexity": 112.34281033939736,
+  "top1_accuracy": 0.2466940102101266,
+  "top3_accuracy": 0.37698804502296795,
+  "top5_accuracy": 0.4339951247778472,
+  "target_oov_rate": 0.014470280891783704,
+  "known_target_top1": 0.25031615528890844,
+  "known_target_top5": 0.44036736423388595,
+  "evaluation_seconds": 11.038632208999843,
+  "without_loops": {
+    "examples": 308539,
+    "cross_entropy": 4.7226041398844885,
+    "vocabulary_perplexity": 112.46073515572074,
+    "top1_accuracy": 0.24658146944146445,
+    "top3_accuracy": 0.3768761809690185,
+    "top5_accuracy": 0.4338479090163642,
+    "target_oov_rate": 0.014477910410029216,
+    "known_target_top1": 0.2502038990765345,
+    "known_target_top5": 0.44022139493277906,
+    "evaluation_seconds": 10.43481662499994
+  },
+  "architecture": "gru",
+  "best_epoch": 3,
+  "completed_epochs": 3,
+  "parameter_count": 3934496,
+  "checkpoint": "/Users/nandan/Downloads/trail-main/outputs/english_families/gru_best.pt",
+  "validation": {
+    "examples": 285746,
+    "cross_entropy": 4.762916053103994,
+    "vocabulary_perplexity": 117.08686006806667,
+    "top1_accuracy": 0.24452835735233389,
+    "top3_accuracy": 0.37306908933108424,
+    "top5_accuracy": 0.42892638917080206,
+    "target_oov_rate": 0.015310800501144417,
+    "known_target_top1": 0.2483304960354834,
+    "known_target_top5": 0.4355957081575571,
+    "evaluation_seconds": 9.620280500000035
+  }
+}
